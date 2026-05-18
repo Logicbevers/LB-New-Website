@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Mail, Phone, Clock, CheckCircle, Linkedin, Twitter, Send } from "lucide-react";
+import { Mail, Phone, Clock, CheckCircle, Globe, Share2, Send } from "lucide-react";
 import ContactForm from "@/components/contact/ContactForm";
 
 export const metadata: Metadata = {
@@ -29,13 +29,13 @@ const contactInfo = [
     href: null,
   },
   {
-    icon: Linkedin,
+    icon: Globe,
     label: "LinkedIn",
     value: "linkedin.com/company/logic-bevers",
     href: "https://linkedin.com/company/logic-bevers",
   },
   {
-    icon: Twitter,
+    icon: Share2,
     label: "Twitter / X",
     value: "@Logic_Bevers",
     href: "https://x.com/Logic_Bevers",
