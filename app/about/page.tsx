@@ -11,6 +11,18 @@ export const metadata: Metadata = {
   description:
     "LogicBevers is a global IT services firm delivering enterprise-grade cybersecurity, AI integration, and cloud solutions to small and mid-sized businesses worldwide.",
   alternates: { canonical: "https://logicbevers.com/about" },
+  openGraph: {
+    title: "About LogicBevers | Managed IT & Cybersecurity Experts",
+    description: "LogicBevers is a global IT services firm delivering enterprise-grade cybersecurity, AI integration, and cloud solutions to small and mid-sized businesses worldwide.",
+    url: "https://logicbevers.com/about",
+    siteName: "LogicBevers",
+    images: [{ url: "https://logicbevers.com/api/og?name=About+LogicBevers&desc=Enterprise-grade+IT+%26+cybersecurity+for+SMBs+worldwide&category=About", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About LogicBevers | Managed IT & Cybersecurity Experts",
+    description: "LogicBevers is a global IT services firm delivering enterprise-grade cybersecurity, AI integration, and cloud solutions.",
+  },
 };
 
 const values = [

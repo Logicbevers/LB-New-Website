@@ -5,6 +5,7 @@ export interface BlogPost {
   category: string;
   readTime: string;
   date: string;
+  isoDate: string;
   author: string;
   authorInitials: string;
   content: string;
@@ -19,7 +20,8 @@ export const blogPosts: BlogPost[] = [
     category: "AI & Automation",
     readTime: "8 min read",
     date: "May 15, 2026",
-    author: "Alex B.",
+    isoDate: "2026-05-15",
+    author: "Alex Rivera",
     authorInitials: "AB",
     content: `
 <p>Small business IT teams are stretched thin. The average 10-person company deals with 47 IT issues per month — password resets, slow machines, failed backups, software updates, security patches. Managing all of this manually is expensive, slow, and error-prone. <strong>AI automation is changing that equation entirely.</strong></p>
@@ -158,7 +160,8 @@ export const blogPosts: BlogPost[] = [
     category: "Cybersecurity",
     readTime: "6 min read",
     date: "May 12, 2026",
-    author: "Sarah C.",
+    isoDate: "2026-05-12",
+    author: "Sarah Chen",
     authorInitials: "SC",
     content: `
 <p>A cyberattack hits a small business every 39 seconds. Yet most small business owners still operate under two dangerous assumptions: <em>"We're too small to be a target"</em> and <em>"Our current setup is good enough."</em></p>
@@ -264,7 +267,8 @@ export const blogPosts: BlogPost[] = [
     category: "Cloud Solutions",
     readTime: "10 min read",
     date: "May 8, 2026",
-    author: "Marcus K.",
+    isoDate: "2026-05-08",
+    author: "Marcus Kim",
     authorInitials: "MK",
     content: `
 <p>Cloud migration is one of the highest-ROI technology decisions a small business can make — but it's also one of the most commonly bungled. Companies that rush in without a plan end up with higher cloud bills than their old on-premise costs, performance problems, security gaps, and months of painful cleanup.</p>
@@ -420,7 +424,8 @@ export const blogPosts: BlogPost[] = [
     category: "Cybersecurity",
     readTime: "7 min read",
     date: "May 5, 2026",
-    author: "Sarah C.",
+    isoDate: "2026-05-05",
+    author: "Sarah Chen",
     authorInitials: "SC",
     content: `
 <p>For decades, network security worked like a castle: build a strong wall around the perimeter, and trust everything inside. Your office firewall was the wall. Anyone who got through it — employees, servers, applications — was implicitly trusted.</p>
@@ -568,7 +573,8 @@ export const blogPosts: BlogPost[] = [
     category: "Managed IT",
     readTime: "9 min read",
     date: "April 30, 2026",
-    author: "Alex B.",
+    isoDate: "2026-04-30",
+    author: "Alex Rivera",
     authorInitials: "AB",
     content: `
 <p>Every growing small business eventually faces the same question: <em>Do we hire an IT person, or do we outsource?</em> Most business owners make this decision based on gut feel, one-sided vendor pitches, or advice from people who've never actually done the comparison properly.</p>
@@ -693,7 +699,8 @@ export const blogPosts: BlogPost[] = [
     category: "Cloud Solutions",
     readTime: "8 min read",
     date: "April 25, 2026",
-    author: "Marcus K.",
+    isoDate: "2026-04-25",
+    author: "Marcus Kim",
     authorInitials: "MK",
     content: `
 <p>Most small businesses don't choose multi-cloud — they drift into it. The engineering team uses AWS for the main application. Finance adopted Microsoft 365 and Azure for SharePoint. Someone signed up for Google Workspace, and suddenly you're also running workloads on GCP. The marketing team is using Cloudflare, HubSpot, and Salesforce. Your "cloud strategy" is really a collection of individual decisions made in isolation.</p>

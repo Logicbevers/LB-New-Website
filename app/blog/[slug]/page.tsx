@@ -25,14 +25,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "article",
       url: `https://logicbevers.com/blog/${post.slug}`,
       siteName: "LogicBevers",
-      publishedTime: post.date,
+      publishedTime: post.isoDate,
       authors: [post.author],
       tags: [post.category],
+      images: [
+        {
+          url: `https://logicbevers.com/api/og?name=${encodeURIComponent(post.title)}&desc=${encodeURIComponent(post.excerpt)}&category=${encodeURIComponent(post.category)}`,
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: post.title,
       description: post.excerpt,
+      images: [`https://logicbevers.com/api/og?name=${encodeURIComponent(post.title)}&desc=${encodeURIComponent(post.excerpt)}&category=${encodeURIComponent(post.category)}`],
     },
     alternates: { canonical: `https://logicbevers.com/blog/${post.slug}` },
   };
@@ -61,8 +70,8 @@ export default async function BlogPostPage({ params }: Props) {
       name: "LogicBevers",
       url: "https://logicbevers.com",
     },
-    datePublished: post.date,
-    dateModified: post.date,
+    datePublished: post.isoDate,
+    dateModified: post.isoDate,
     url: `https://logicbevers.com/blog/${post.slug}`,
     mainEntityOfPage: {
       "@type": "WebPage",

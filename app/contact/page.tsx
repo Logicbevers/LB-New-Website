@@ -7,6 +7,18 @@ export const metadata: Metadata = {
   description:
     "Get in touch with LogicBevers. Reach us via email, phone, LinkedIn, Twitter or Telegram. We respond within 30 minutes during business hours.",
   alternates: { canonical: "https://logicbevers.com/contact" },
+  openGraph: {
+    title: "Contact LogicBevers | Get In Touch",
+    description: "Reach us via email, phone, LinkedIn, Twitter or Telegram. We respond within 30 minutes during business hours.",
+    url: "https://logicbevers.com/contact",
+    siteName: "LogicBevers",
+    images: [{ url: "https://logicbevers.com/api/og?name=Contact+LogicBevers&desc=Get+expert+IT+support+within+30+minutes&category=Contact", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact LogicBevers | Get In Touch",
+    description: "Reach us via email, phone, LinkedIn or Telegram. 30-minute response during business hours.",
+  },
 };
 
 const contactInfo = [

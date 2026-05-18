@@ -43,8 +43,8 @@ export default function Hero() {
             </h1>
 
             <p className="text-lg md:text-xl text-slate-500 max-w-md leading-relaxed mb-10">
-              Managed IT, cybersecurity &amp; cloud for small businesses.
-              24/7 support, AI automation, zero downtime — at a flat rate.
+              Expert managed IT services, cybersecurity &amp; cloud solutions for small businesses worldwide.
+              24/7 support, AI automation, zero downtime — at a flat monthly rate.
             </p>
 
             <div className="flex flex-wrap gap-3">
