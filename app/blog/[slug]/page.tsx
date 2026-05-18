@@ -92,6 +92,15 @@ export default async function BlogPostPage({ params }: Props) {
       />
       {/* Hero */}
       <section className="bg-brand-dark py-16">
+        {/* Cover image */}
+        <div className="w-full h-64 md:h-80 overflow-hidden mb-0">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={`/api/og?name=${encodeURIComponent(post.title)}&desc=${encodeURIComponent(post.excerpt)}&category=${encodeURIComponent(post.category)}`}
+            alt={post.title}
+            className="w-full h-full object-cover"
+          />
+        </div>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link
             href="/blog"

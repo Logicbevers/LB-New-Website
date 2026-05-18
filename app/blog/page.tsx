@@ -75,13 +75,15 @@ export default function BlogPage() {
                 key={post.slug}
                 className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col"
               >
-                {/* Placeholder image */}
-                <div className="h-48 bg-gradient-to-br from-brand-dark to-brand-navy flex items-center justify-center">
-                  <span
-                    className={`text-xs font-semibold px-3 py-1 rounded-full ${getCategoryColor(post.category)}`}
-                  >
-                    {post.category}
-                  </span>
+                {/* Cover image */}
+                <div className="h-48 overflow-hidden bg-brand-dark">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={`/api/og?name=${encodeURIComponent(post.title)}&desc=${encodeURIComponent(post.excerpt)}&category=${encodeURIComponent(post.category)}`}
+                    alt={post.title}
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
                 </div>
 
                 <div className="p-6 flex flex-col flex-1">
