@@ -1,7 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  outputFileTracingRoot: "C:/Users/dell/Calude work/logicbevers",
   async redirects() {
     return [
       { source: "/services/managed-it",    destination: "/services/digital-transformation", permanent: true },
