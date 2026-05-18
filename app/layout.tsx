@@ -27,6 +27,13 @@ export const metadata: Metadata = {
     "digital transformation",
   ],
   metadataBase: new URL("https://logicbevers.com"),
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    shortcut: "/favicon.png",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -58,13 +65,14 @@ const organizationSchema = {
     "Managed IT services, cybersecurity, and cloud solutions for small businesses globally.",
   contactPoint: {
     "@type": "ContactPoint",
-    telephone: "+1-555-000-0000",
+    telephone: "+91-86994-61996",
     contactType: "customer service",
     availableLanguage: "English",
   },
   sameAs: [
-    "https://www.linkedin.com/company/logicbevers",
-    "https://twitter.com/logicbevers",
+    "https://linkedin.com/company/logic-bevers",
+    "https://x.com/Logic_Bevers",
+    "https://t.me/logicBevers",
   ],
   areaServed: ["US", "IN", "GB", "EU"],
 };
