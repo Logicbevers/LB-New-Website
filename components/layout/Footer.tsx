@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Mail, Phone } from "lucide-react";
 
 const LinkedInIcon = () => (
@@ -54,11 +55,12 @@ export default function Footer() {
           {/* Brand column */}
           <div>
             <Link href="/" className="flex items-center mb-4">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              <Image
                 src="/logo.png"
                 alt="LogicBevers"
-                style={{ height: '40px', width: 'auto', display: 'block', filter: 'brightness(0) invert(1)' }}
+                height={40}
+                width={172}
+                style={{ width: 'auto', filter: 'brightness(0) invert(1)' }}
               />
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed mb-5">

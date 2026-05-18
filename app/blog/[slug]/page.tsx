@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowLeft, ArrowRight, Clock, User, Calendar } from "lucide-react";
 import { blogPosts, getPostBySlug, getCategoryColor } from "@/lib/blogPosts";
 import { notFound } from "next/navigation";
@@ -52,9 +53,10 @@ export default async function BlogPostPage({ params }: Props) {
   const post = getPostBySlug(slug);
   if (!post) notFound();
 
-  const relatedPosts = blogPosts
-    .filter((p) => p.slug !== slug)
-    .slice(0, 3);
+  const relatedPosts = [
+    ...blogPosts.filter((p) => p.slug !== slug && p.category === post.category),
+    ...blogPosts.filter((p) => p.slug !== slug && p.category !== post.category),
+  ].slice(0, 3);
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -102,12 +104,13 @@ export default async function BlogPostPage({ params }: Props) {
       {/* Hero */}
       <section className="bg-brand-dark py-16">
         {/* Cover image */}
-        <div className="w-full h-64 md:h-80 overflow-hidden mb-0">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+        <div className="w-full h-64 md:h-80 overflow-hidden mb-0 relative">
+          <Image
             src={`/api/og?name=${encodeURIComponent(post.title)}&desc=${encodeURIComponent(post.excerpt)}&category=${encodeURIComponent(post.category)}`}
             alt={post.title}
-            className="w-full h-full object-cover"
+            fill
+            className="object-cover"
+            priority
           />
         </div>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

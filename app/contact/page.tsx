@@ -82,9 +82,22 @@ const guarantees = [
   "Expert advice, not a sales pitch",
 ];
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://logicbevers.com" },
+    { "@type": "ListItem", position: 2, name: "Contact", item: "https://logicbevers.com/contact" },
+  ],
+};
+
 export default function ContactPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       {/* Hero */}
       <section className="bg-brand-dark py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Clock, User } from "lucide-react";
-import { blogPosts, getCategoryColor } from "@/lib/blogPosts";
+import { ArrowRight } from "lucide-react";
+import BlogGrid from "@/components/blog/BlogGrid";
 
 export const metadata: Metadata = {
   title: "IT Insights Blog | LogicBevers",
@@ -9,8 +9,6 @@ export const metadata: Metadata = {
     "Expert IT insights, cybersecurity tips, cloud guides, and AI automation strategies for small businesses. Updated weekly by the LogicBevers team.",
   alternates: { canonical: "https://logicbevers.com/blog" },
 };
-
-const categories = ["All", "Managed IT", "Cybersecurity", "Cloud Solutions", "AI & Automation"];
 
 export default function BlogPage() {
   return (
@@ -53,75 +51,7 @@ export default function BlogPage() {
       {/* Blog grid */}
       <section className="py-20 bg-brand-gray">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Category filter (static — can be made interactive later) */}
-          <div className="flex flex-wrap gap-2 mb-10">
-            {categories.map((cat) => (
-              <button
-                key={cat}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                  cat === "All"
-                    ? "bg-brand-green text-white"
-                    : "bg-white text-slate-600 hover:bg-brand-gray-dark border border-gray-200"
-                }`}
-              >
-                {cat}
-              </button>
-            ))}
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {blogPosts.map((post) => (
-              <article
-                key={post.slug}
-                className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col"
-              >
-                {/* Cover image */}
-                <div className="h-48 overflow-hidden bg-brand-dark">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={`/api/og?name=${encodeURIComponent(post.title)}&desc=${encodeURIComponent(post.excerpt)}&category=${encodeURIComponent(post.category)}`}
-                    alt={post.title}
-                    className="w-full h-full object-cover"
-                    loading="lazy"
-                  />
-                </div>
-
-                <div className="p-6 flex flex-col flex-1">
-                  <div className="flex items-center gap-3 text-xs text-slate-400 mb-3">
-                    <div className="flex items-center gap-1">
-                      <Clock className="w-3.5 h-3.5" />
-                      {post.readTime}
-                    </div>
-                    <span>·</span>
-                    <span>{post.date}</span>
-                  </div>
-
-                  <h2 className="font-bold text-brand-dark text-base leading-snug mb-3 flex-1">
-                    {post.title}
-                  </h2>
-
-                  <p className="text-slate-500 text-sm leading-relaxed mb-4 line-clamp-2">
-                    {post.excerpt}
-                  </p>
-
-                  <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-                    <div className="flex items-center gap-2">
-                      <div className="w-7 h-7 bg-brand-green/10 rounded-full flex items-center justify-center">
-                        <User className="w-3.5 h-3.5 text-brand-green" />
-                      </div>
-                      <span className="text-xs text-slate-500">{post.author}</span>
-                    </div>
-                    <Link
-                      href={`/blog/${post.slug}`}
-                      className="inline-flex items-center gap-1 text-brand-green text-sm font-medium hover:gap-2 transition-all"
-                    >
-                      Read <ArrowRight className="w-3.5 h-3.5" />
-                    </Link>
-                  </div>
-                </div>
-              </article>
-            ))}
-          </div>
+          <BlogGrid />
         </div>
       </section>
 

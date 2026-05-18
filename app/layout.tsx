@@ -27,6 +27,13 @@ export const metadata: Metadata = {
     "digital transformation",
   ],
   metadataBase: new URL("https://logicbevers.com"),
+  alternates: {
+    canonical: "https://logicbevers.com",
+    languages: {
+      "en": "https://logicbevers.com",
+      "x-default": "https://logicbevers.com",
+    },
+  },
   icons: {
     icon: [
       { url: "/favicon.png", type: "image/png" },

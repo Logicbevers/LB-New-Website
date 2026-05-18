@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-
+import Image from "next/image";
 import { Menu, X, ChevronDown } from "lucide-react";
 
 const services = [
@@ -36,11 +36,13 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center flex-shrink-0">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <Image
               src="/logo.png"
               alt="LogicBevers"
-              style={{ height: '44px', width: 'auto', mixBlendMode: 'multiply' }}
+              height={44}
+              width={190}
+              style={{ width: 'auto', mixBlendMode: 'multiply' }}
+              priority
             />
           </Link>
 

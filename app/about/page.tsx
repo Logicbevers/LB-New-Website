@@ -160,9 +160,22 @@ const certifications = [
   "CCSP", "OSCP", "Certified Ethical Hacker",
 ];
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://logicbevers.com" },
+    { "@type": "ListItem", position: 2, name: "About", item: "https://logicbevers.com/about" },
+  ],
+};
+
 export default function AboutPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       {/* Hero — Bento Bold */}
       <section className="bg-white border-b border-black/8 pt-16 pb-0 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
