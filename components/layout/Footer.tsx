@@ -50,7 +50,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/company/logic-bevers"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-brand-green transition-colors"
@@ -59,7 +59,7 @@ export default function Footer() {
                 <ExternalLink className="w-4 h-4" />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://x.com/Logic_Bevers"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-brand-green transition-colors"
@@ -68,9 +68,11 @@ export default function Footer() {
                 <Share2 className="w-4 h-4" />
               </a>
               <a
-                href="mailto:hello@logicbevers.com"
+                href="https://t.me/logicBevers"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-brand-green transition-colors"
-                aria-label="Email"
+                aria-label="Telegram"
               >
                 <Mail className="w-4 h-4" />
               </a>
@@ -139,19 +141,19 @@ export default function Footer() {
               <div className="flex items-center gap-2 text-slate-400 text-sm">
                 <Mail className="w-4 h-4 text-brand-light flex-shrink-0" />
                 <a
-                  href="mailto:hello@logicbevers.com"
+                  href="mailto:contact@logicbevers.com"
                   className="hover:text-brand-light transition-colors"
                 >
-                  hello@logicbevers.com
+                  contact@logicbevers.com
                 </a>
               </div>
               <div className="flex items-center gap-2 text-slate-400 text-sm">
                 <Phone className="w-4 h-4 text-brand-light flex-shrink-0" />
                 <a
-                  href="tel:+1-555-000-0000"
+                  href="tel:+918699461996"
                   className="hover:text-brand-light transition-colors"
                 >
-                  +1 (555) 000-0000
+                  +91 86994 61996
                 </a>
               </div>
             </div>
@@ -159,7 +161,7 @@ export default function Footer() {
               href="/contact"
               className="inline-block bg-brand-green hover:bg-brand-light text-white text-sm font-medium px-5 py-2.5 rounded-lg transition-colors"
             >
-              Schedule Free Audit →
+              Get In Touch →
             </Link>
           </div>
         </div>

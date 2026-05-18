@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Mail, Phone, Clock, CheckCircle } from "lucide-react";
+import { Mail, Phone, Clock, CheckCircle, Linkedin, Twitter, Send } from "lucide-react";
 import ContactForm from "@/components/contact/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact LogicBevers | Schedule Your Free IT Audit",
+  title: "Contact LogicBevers | Get In Touch",
   description:
-    "Schedule a free IT audit with LogicBevers. 15-minute call, no commitment. Get a custom IT action plan for your small business.",
+    "Get in touch with LogicBevers. Reach us via email, phone, LinkedIn, Twitter or Telegram. We respond within 30 minutes during business hours.",
   alternates: { canonical: "https://logicbevers.com/contact" },
 };
 
@@ -13,14 +13,14 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email Us",
-    value: "hello@logicbevers.com",
-    href: "mailto:hello@logicbevers.com",
+    value: "contact@logicbevers.com",
+    href: "mailto:contact@logicbevers.com",
   },
   {
     icon: Phone,
     label: "Call Us",
-    value: "+1 (555) 000-0000",
-    href: "tel:+15550000000",
+    value: "+91 86994 61996",
+    href: "tel:+918699461996",
   },
   {
     icon: Clock,
@@ -28,10 +28,28 @@ const contactInfo = [
     value: "Within 30 minutes (business hours)",
     href: null,
   },
+  {
+    icon: Linkedin,
+    label: "LinkedIn",
+    value: "linkedin.com/company/logic-bevers",
+    href: "https://linkedin.com/company/logic-bevers",
+  },
+  {
+    icon: Twitter,
+    label: "Twitter / X",
+    value: "@Logic_Bevers",
+    href: "https://x.com/Logic_Bevers",
+  },
+  {
+    icon: Send,
+    label: "Telegram",
+    value: "t.me/logicBevers",
+    href: "https://t.me/logicBevers",
+  },
 ];
 
 const guarantees = [
-  "Free 15-minute discovery call",
+  "Quick response within 30 minutes",
   "No commitment required",
   "Custom IT action plan",
   "Expert advice, not a sales pitch",

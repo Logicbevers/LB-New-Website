@@ -5,7 +5,7 @@ const channels = [
   {
     icon: Calendar,
     label: "Schedule",
-    desc: "Free 15-min discovery call",
+    desc: "Book a discovery call",
     action: "Book a time →",
     href: "/contact",
     dark: true,
@@ -13,17 +13,17 @@ const channels = [
   {
     icon: Phone,
     label: "Call",
-    desc: "+1 (555) 000-0000",
+    desc: "+91 86994 61996",
     action: "Call now →",
-    href: "tel:+15550000000",
+    href: "tel:+918699461996",
     dark: false,
   },
   {
     icon: Mail,
     label: "Email",
-    desc: "hello@logicbevers.com",
+    desc: "contact@logicbevers.com",
     action: "Send a message →",
-    href: "mailto:hello@logicbevers.com",
+    href: "mailto:contact@logicbevers.com",
     dark: false,
   },
 ];

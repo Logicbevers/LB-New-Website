@@ -30,7 +30,7 @@ const sections = [
   },
   {
     title: "Your Rights",
-    content: "Depending on your location, you may have rights to access, correct, or delete your personal information. You may also have the right to opt out of certain communications. To exercise these rights, please contact us at hello@logicbevers.com.",
+    content: "Depending on your location, you may have rights to access, correct, or delete your personal information. You may also have the right to opt out of certain communications. To exercise these rights, please contact us at contact@logicbevers.com.",
   },
   {
     title: "Data Retention",
@@ -42,7 +42,7 @@ const sections = [
   },
   {
     title: "Contact Us",
-    content: "If you have questions about this Privacy Policy or our data practices, please contact us at hello@logicbevers.com or via our contact form.",
+    content: "If you have questions about this Privacy Policy or our data practices, please contact us at contact@logicbevers.com or via our contact form.",
   },
 ];
 

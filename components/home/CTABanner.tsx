@@ -21,11 +21,8 @@ export default function CTABanner() {
               href="/contact"
               className="inline-flex items-center justify-center gap-2 bg-white text-black font-black px-8 py-4 text-lg hover:bg-black hover:text-white transition-colors"
             >
-              Free IT Audit <ArrowRight className="w-5 h-5" />
+              Get in Touch <ArrowRight className="w-5 h-5" />
             </Link>
-            <p className="text-green-200/70 text-xs text-center">
-              15-min call · No commitment · Custom plan included
-            </p>
           </div>
         </div>
       </div>

@@ -83,12 +83,6 @@ export default function ServicesGrid() {
             </h2>
           </div>
           <div className="flex flex-col gap-2 items-start md:items-end">
-            <Link
-              href="/contact"
-              className="inline-flex items-center gap-2 border-2 border-black font-bold px-6 py-3 text-sm hover:bg-black hover:text-white transition-colors flex-shrink-0"
-            >
-              Get Free Audit <ArrowRight className="w-4 h-4" />
-            </Link>
             <span className="text-slate-400 text-xs">6 featured · 11 total services</span>
           </div>
         </div>

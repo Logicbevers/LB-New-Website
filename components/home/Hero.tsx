@@ -49,22 +49,18 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-3">
               <Link
-                href="/contact"
+                href="/services/compliance-audits"
                 className="inline-flex items-center gap-2 bg-black hover:bg-brand-green text-white font-bold px-7 py-4 text-base transition-colors duration-200"
               >
-                Free IT Audit <ArrowRight className="w-4 h-4" />
+                Explore Services <ArrowRight className="w-4 h-4" />
               </Link>
               <Link
-                href="/services/compliance-audits"
+                href="/contact"
                 className="inline-flex items-center gap-2 border-2 border-black text-black font-bold px-7 py-4 text-base hover:bg-black hover:text-white transition-colors duration-200"
               >
-                Explore Services
+                Contact Us
               </Link>
             </div>
-
-            <p className="text-slate-400 text-sm mt-5">
-              15-min call · No commitment · Custom action plan included
-            </p>
           </motion.div>
 
           {/* Right — bento stat tiles (1/3) */}
