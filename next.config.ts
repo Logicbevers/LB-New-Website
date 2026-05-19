@@ -3,6 +3,14 @@ import path from "path";
 
 const nextConfig: NextConfig = {
   outputFileTracingRoot: path.join(__dirname),
+  images: {
+    localPatterns: [
+      {
+        pathname: "/api/og",
+        search: "**",
+      },
+    ],
+  },
   async redirects() {
     return [
       { source: "/services/managed-it",    destination: "/services/digital-transformation", permanent: true },
