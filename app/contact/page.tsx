@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Mail, Phone, Clock, CheckCircle } from "lucide-react";
 import ContactForm from "@/components/contact/ContactForm";
+import ObfuscatedEmail from "@/components/shared/ObfuscatedEmail";
 
 export const metadata: Metadata = {
   title: "Contact LogicBevers | Get In Touch",
@@ -25,8 +26,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email Us",
-    value: "contact@logicbevers.com",
-    href: "mailto:contact@logicbevers.com",
+    value: null,
+    href: null,
   },
   {
     icon: Phone,
@@ -142,7 +143,9 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <p className="text-xs text-slate-400 font-medium mb-0.5">{label}</p>
-                      {href ? (
+                      {label === "Email Us" ? (
+                        <ObfuscatedEmail className="text-brand-dark font-medium text-sm hover:text-brand-green transition-colors" />
+                      ) : href ? (
                         <a href={href} className="text-brand-dark font-medium text-sm hover:text-brand-green transition-colors">
                           {value}
                         </a>

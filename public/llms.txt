@@ -1,0 +1,41 @@
+# LogicBevers
+
+> LogicBevers is a global managed IT services company delivering enterprise-grade cybersecurity, AI automation, cloud solutions, and 24/7 IT support to small and mid-sized businesses worldwide. Founded in 2020. Contact: contact@logicbevers.com | +91 86994 61996
+
+## Services
+
+- [Compliance Audits & Certifications](https://logicbevers.com/services/compliance-audits): SOC2, ISO 27001, HIPAA, PCI-DSS and GDPR audit preparation and certification support for small businesses.
+- [Zero-Trust Security](https://logicbevers.com/services/zero-trust-security): Implementation of zero-trust network architecture, identity verification, and micro-segmentation for SMBs.
+- [24/7 Incident Response](https://logicbevers.com/services/incident-response): Round-the-clock cybersecurity incident detection, containment, and recovery services.
+- [AI & LLM Integration](https://logicbevers.com/services/ai-llm-integration): Enterprise AI and large language model integration into business workflows and IT operations.
+- [Custom Generative AI Development](https://logicbevers.com/services/custom-ai-development): Bespoke generative AI solutions built on GPT-4, Claude, and Gemini for business automation.
+- [Cloud Cost Optimisation (FinOps)](https://logicbevers.com/services/cloud-finops): AWS, Azure, and GCP cost optimisation using FinOps frameworks to reduce cloud spend.
+- [Web3 & Blockchain](https://logicbevers.com/services/web3-blockchain): Smart contract development, blockchain integration, and Web3 infrastructure for businesses.
+- [Multi-Cloud Management](https://logicbevers.com/services/multi-cloud): Unified management, monitoring, and governance across AWS, Azure, and Google Cloud.
+- [API Security & Gateway](https://logicbevers.com/services/api-security): API threat protection, rate limiting, authentication, and gateway management.
+- [Managed SOC](https://logicbevers.com/services/managed-soc): 24/7 Security Operations Centre with SIEM, threat intelligence, and automated response.
+- [Digital Transformation](https://logicbevers.com/services/digital-transformation): End-to-end digital transformation consulting and implementation for SMBs.
+
+## Blog & Resources
+
+- [AI Automation for IT Operations: The Complete Guide](https://logicbevers.com/blog/ai-automation-it-operations-guide): How AI is transforming IT operations for small businesses in 2026.
+- [5 Cybersecurity Mistakes Small Businesses Make](https://logicbevers.com/blog/cybersecurity-mistakes-small-business): Most common security vulnerabilities and how to fix them.
+- [Cloud Migration Checklist](https://logicbevers.com/blog/cloud-migration-checklist): Step-by-step guide covering assessment, planning, and post-migration optimisation.
+- [Zero-Trust Security: Is Your Business Ready?](https://logicbevers.com/blog/zero-trust-security-smb): How small businesses can implement zero-trust principles affordably.
+- [Managed IT Services vs In-House IT: The Real Cost Comparison](https://logicbevers.com/blog/managed-it-vs-in-house): Data-driven breakdown of true IT costs for SMBs.
+- [Multi-Cloud Management Strategies for Small Businesses](https://logicbevers.com/blog/multi-cloud-management-strategies): Managing AWS, Azure, and GCP without losing visibility or control.
+
+## Company
+
+- [About LogicBevers](https://logicbevers.com/about): Mission, values, and team information.
+- [Contact](https://logicbevers.com/contact): Get in touch via email, phone, LinkedIn, Twitter, or Telegram.
+- [Privacy Policy](https://logicbevers.com/privacy): How LogicBevers collects, uses, and protects personal information.
+
+## Contact & Social
+
+- Website: https://logicbevers.com
+- Email: contact@logicbevers.com
+- Phone: +91 86994 61996
+- LinkedIn: https://linkedin.com/company/logic-bevers
+- Twitter/X: https://x.com/Logic_Bevers
+- Telegram: https://t.me/logicBevers

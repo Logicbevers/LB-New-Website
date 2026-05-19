@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import GoogleAnalytics from "@/components/analytics/GoogleAnalytics";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -62,6 +63,58 @@ export const metadata: Metadata = {
   },
 };
 
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "LogicBevers",
+  url: "https://logicbevers.com",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: "https://logicbevers.com/blog?q={search_term_string}",
+    },
+    "query-input": "required name=search_term_string",
+  },
+};
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  name: "LogicBevers",
+  url: "https://logicbevers.com",
+  logo: "https://logicbevers.com/logo.png",
+  image: "https://logicbevers.com/logo.png",
+  description: "Expert managed IT services, cybersecurity, AI automation, and cloud solutions for small businesses worldwide.",
+  telephone: "+91-86994-61996",
+  email: "contact@logicbevers.com",
+  foundingDate: "2020",
+  priceRange: "$$",
+  areaServed: ["US", "IN", "GB", "EU", "Global"],
+  serviceType: [
+    "Managed IT Services",
+    "Cybersecurity",
+    "Cloud Solutions",
+    "AI Automation",
+    "Zero Trust Security",
+    "Compliance Audits",
+  ],
+  sameAs: [
+    "https://linkedin.com/company/logic-bevers",
+    "https://x.com/Logic_Bevers",
+    "https://t.me/logicBevers",
+  ],
+  openingHours: "Mo-Fr 09:00-18:00",
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "+91-86994-61996",
+    contactType: "customer service",
+    email: "contact@logicbevers.com",
+    availableLanguage: "English",
+    contactOption: "TollFree",
+  },
+};
+
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -90,12 +143,16 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} h-full antialiased`} suppressHydrationWarning>
       <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
-        />
+        {/* Preconnect for performance */}
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        {/* Structured data */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
       </head>
       <body className="min-h-full flex flex-col">
+        <GoogleAnalytics />
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />

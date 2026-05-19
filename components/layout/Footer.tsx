@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Mail, Phone } from "lucide-react";
+import ObfuscatedEmail from "@/components/shared/ObfuscatedEmail";
 
 const LinkedInIcon = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
@@ -159,12 +160,7 @@ export default function Footer() {
             <div className="space-y-3 mb-6">
               <div className="flex items-center gap-2 text-slate-400 text-sm">
                 <Mail className="w-4 h-4 text-brand-light flex-shrink-0" />
-                <a
-                  href="mailto:contact@logicbevers.com"
-                  className="hover:text-brand-light transition-colors"
-                >
-                  contact@logicbevers.com
-                </a>
+                <ObfuscatedEmail className="hover:text-brand-light transition-colors" />
               </div>
               <div className="flex items-center gap-2 text-slate-400 text-sm">
                 <Phone className="w-4 h-4 text-brand-light flex-shrink-0" />
