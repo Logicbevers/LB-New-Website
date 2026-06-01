@@ -11,6 +11,31 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async headers() {
+    return [
+      {
+        // HTML pages — always revalidate before serving from cache
+        source: "/(.*)",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=0, must-revalidate",
+          },
+        ],
+      },
+      {
+        // Static assets are content-hashed — safe to cache for 1 year
+        source: "/_next/static/(.*)",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
+        ],
+      },
+    ];
+  },
+
   async redirects() {
     return [
       { source: "/services/managed-it",    destination: "/services/digital-transformation", permanent: true },
