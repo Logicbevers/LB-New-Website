@@ -14,22 +14,40 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        // HTML pages — always revalidate before serving from cache
-        source: "/(.*)",
+        // HTML pages — never serve stale; always fetch fresh from server
+        source: "/((?!_next/static|_next/image|favicon|icon|apple-touch-icon).*)",
         headers: [
           {
             key: "Cache-Control",
-            value: "public, max-age=0, must-revalidate",
+            value: "no-cache, no-store, must-revalidate",
+          },
+          {
+            key: "Pragma",
+            value: "no-cache",
+          },
+          {
+            key: "Expires",
+            value: "0",
           },
         ],
       },
       {
-        // Static assets are content-hashed — safe to cache for 1 year
+        // Static JS/CSS chunks — content-hashed filenames, safe to cache forever
         source: "/_next/static/(.*)",
         headers: [
           {
             key: "Cache-Control",
             value: "public, max-age=31536000, immutable",
+          },
+        ],
+      },
+      {
+        // Optimised images — cache for 1 day
+        source: "/_next/image(.*)",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=86400, stale-while-revalidate=604800",
           },
         ],
       },
