@@ -13,7 +13,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "LogicBevers | Managed IT Services for Small Business",
+    default: "LogicBevers | Expert IT Services, Cloud & Security Solutions",
     template: "%s | LogicBevers",
   },
   description:
@@ -50,13 +50,13 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://logicbevers.com",
     siteName: "LogicBevers",
-    title: "LogicBevers | Managed IT Services for Small Business",
+    title: "LogicBevers | Expert IT Services, Cloud & Security Solutions",
     description:
       "Expert managed IT services, cybersecurity, and cloud solutions for small businesses. 24/7 support, AI automation. Trusted globally.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "LogicBevers | Managed IT Services for Small Business",
+    title: "LogicBevers | Expert IT Services, Cloud & Security Solutions",
     description:
       "Expert managed IT services, cybersecurity & cloud solutions for small businesses.",
   },
