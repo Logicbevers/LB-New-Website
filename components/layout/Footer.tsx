@@ -63,8 +63,7 @@ export default function Footer() {
               />
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed mb-5">
-              Unlocking Logic and Empowering Ventures. Expert managed IT services
-              for small businesses worldwide.
+              Your dedicated IT partner for cybersecurity, cloud, and AI solutions that actually deliver results.
             </p>
             <div className="flex gap-3">
               <a
