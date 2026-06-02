@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import BlogGrid from "@/components/blog/BlogGrid";
@@ -6,7 +6,7 @@ import BlogGrid from "@/components/blog/BlogGrid";
 export const metadata: Metadata = {
   title: "IT Insights Blog | LogicBevers",
   description:
-    "Expert IT insights, cybersecurity tips, cloud guides, and AI automation strategies for small businesses. Updated weekly by the LogicBevers team.",
+    "Expert IT insights, cybersecurity tips, cloud guides, and AI automation strategies for Growing Businesses. Updated weekly by the LogicBevers team.",
   alternates: { canonical: "https://logicbevers.com/blog" },
 };
 
@@ -20,7 +20,7 @@ export default function BlogPage() {
             IT Insights
           </p>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Expert IT Knowledge for Small Business
+            Expert IT Knowledge for Growing Business
           </h1>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
             Practical guides, security tips, and industry insights from our team

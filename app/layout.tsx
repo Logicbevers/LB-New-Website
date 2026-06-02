@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     template: "%s | LogicBevers",
   },
   description:
-    "Expert managed IT services, cybersecurity, and cloud solutions for small businesses. 24/7 support, AI automation, zero-trust security. Trusted by 150+ companies globally.",
+    "Expert managed IT services, cybersecurity, and cloud solutions for Growing Businesses. 24/7 support, AI automation, zero-trust security. Trusted by 150+ companies globally.",
   keywords: [
     "managed IT services",
-    "cybersecurity for small business",
+    "cybersecurity for Growing Business",
     "cloud solutions",
     "AI automation",
     "24/7 IT support",
@@ -52,13 +52,13 @@ export const metadata: Metadata = {
     siteName: "LogicBevers",
     title: "LogicBevers | Expert IT Services, Cloud & Security Solutions",
     description:
-      "Expert managed IT services, cybersecurity, and cloud solutions for small businesses. 24/7 support, AI automation. Trusted globally.",
+      "Expert managed IT services, cybersecurity, and cloud solutions for Growing Businesses. 24/7 support, AI automation. Trusted globally.",
   },
   twitter: {
     card: "summary_large_image",
     title: "LogicBevers | Expert IT Services, Cloud & Security Solutions",
     description:
-      "Expert managed IT services, cybersecurity & cloud solutions for small businesses.",
+      "Expert managed IT services, cybersecurity & cloud solutions for Growing Businesses.",
   },
   robots: {
     index: true,
@@ -88,7 +88,7 @@ const localBusinessSchema = {
   url: "https://logicbevers.com",
   logo: "https://logicbevers.com/logo.png",
   image: "https://logicbevers.com/logo.png",
-  description: "Expert managed IT services, cybersecurity, AI automation, and cloud solutions for small businesses worldwide.",
+  description: "Expert managed IT services, cybersecurity, AI automation, and cloud solutions for Growing Businesses worldwide.",
   telephone: "+91-86994-61996",
   email: "contact@logicbevers.com",
   foundingDate: "2020",
@@ -125,7 +125,7 @@ const organizationSchema = {
   url: "https://logicbevers.com",
   logo: "https://logicbevers.com/logo.png",
   description:
-    "Managed IT services, cybersecurity, and cloud solutions for small businesses globally.",
+    "Managed IT services, cybersecurity, and cloud solutions for Growing Businesses globally.",
   contactPoint: {
     "@type": "ContactPoint",
     telephone: "+91-86994-61996",

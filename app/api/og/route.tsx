@@ -1,4 +1,4 @@
-import { ImageResponse } from "next/og";
+﻿import { ImageResponse } from "next/og";
 import { NextRequest } from "next/server";
 
 export const runtime = "edge";
@@ -6,7 +6,7 @@ export const runtime = "edge";
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
   const name    = searchParams.get("name")    || "IT Services";
-  const desc    = searchParams.get("desc")    || "Enterprise-grade IT for small business.";
+  const desc    = searchParams.get("desc")    || "Enterprise-grade IT for Growing Business.";
   const category = searchParams.get("category") || "Managed IT Services";
 
   // Truncate desc to ~100 chars so it fits cleanly

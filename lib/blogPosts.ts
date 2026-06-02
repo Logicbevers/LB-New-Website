@@ -1,4 +1,4 @@
-export interface BlogPost {
+﻿export interface BlogPost {
   slug: string;
   title: string;
   excerpt: string;
@@ -16,7 +16,7 @@ export const blogPosts: BlogPost[] = [
     slug: "ai-automation-it-operations-guide",
     title: "AI Automation for IT Operations: The Complete Guide",
     excerpt:
-      "Discover how AI is transforming IT operations for small businesses — from automated monitoring to intelligent ticket routing. Save 18+ hours per week.",
+      "Discover how AI is transforming IT operations for Growing Businesses — from automated monitoring to intelligent ticket routing. Save 18+ hours per week.",
     category: "AI & Automation",
     readTime: "8 min read",
     date: "May 15, 2026",
@@ -24,9 +24,9 @@ export const blogPosts: BlogPost[] = [
     author: "Alex Rivera",
     authorInitials: "AB",
     content: `
-<p>Small business IT teams are stretched thin. The average 10-person company deals with 47 IT issues per month — password resets, slow machines, failed backups, software updates, security patches. Managing all of this manually is expensive, slow, and error-prone. <strong>AI automation is changing that equation entirely.</strong></p>
+<p>Growing Business IT teams are stretched thin. The average 10-person company deals with 47 IT issues per month — password resets, slow machines, failed backups, software updates, security patches. Managing all of this manually is expensive, slow, and error-prone. <strong>AI automation is changing that equation entirely.</strong></p>
 
-<p>In 2025 and into 2026, the tools available to small businesses have matured dramatically. Large language models like Claude 3.5 Sonnet, GPT-4o, and Gemini 2.0 Flash are now embedded into mainstream IT platforms, not just research labs. This guide covers exactly how small businesses are deploying AI to run leaner, faster IT operations — with real numbers and actionable steps you can start using today.</p>
+<p>In 2025 and into 2026, the tools available to Growing Businesses have matured dramatically. Large language models like Claude 3.5 Sonnet, GPT-4o, and Gemini 2.0 Flash are now embedded into mainstream IT platforms, not just research labs. This guide covers exactly how Growing Businesses are deploying AI to run leaner, faster IT operations — with real numbers and actionable steps you can start using today.</p>
 
 <h2>What Is AI-Powered IT Automation in 2026?</h2>
 
@@ -45,7 +45,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>The AI Tool Landscape for IT Operations in 2026</h2>
 
-<p>The ecosystem has consolidated significantly. Here are the platforms leading small business IT automation:</p>
+<p>The ecosystem has consolidated significantly. Here are the platforms leading Growing Business IT automation:</p>
 
 <ul>
   <li><strong>Datadog AI Assistant:</strong> Natural language querying of metrics, traces, and logs — ask "why did response time spike at 3pm?" and get an AI-generated root cause analysis</li>
@@ -61,7 +61,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Traditional monitoring tools alert you when something breaks. AI monitoring predicts breakdowns before they happen. By analysing CPU trends, memory patterns, disk SMART data, and network latency with ML models, platforms like Datadog and New Relic can flag a server heading for failure with 89%+ accuracy — before any user experiences downtime.</p>
 
-<p>Companies using predictive monitoring in 2025 reported <strong>67% fewer unplanned outages</strong> and saved an average of 4.2 hours per week on manual monitoring tasks. For a small business paying $85/hour for IT labour, that's $18,500/year in direct savings from monitoring alone.</p>
+<p>Companies using predictive monitoring in 2025 reported <strong>67% fewer unplanned outages</strong> and saved an average of 4.2 hours per week on manual monitoring tasks. For a Growing Business paying $85/hour for IT labour, that's $18,500/year in direct savings from monitoring alone.</p>
 
 <h3>2. Intelligent Help Desk Ticketing</h3>
 
@@ -145,7 +145,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>The Bottom Line</h2>
 
-<p>AI IT automation in 2026 is not a future technology — it's the baseline for competitive small business IT. Companies that have adopted AI-driven operations have a measurable advantage in uptime (99.9% vs industry average 99.1%), security posture (60% fewer successful breaches), and cost structure (28–40% lower IT operating costs) over those that haven't.</p>
+<p>AI IT automation in 2026 is not a future technology — it's the baseline for competitive Growing Business IT. Companies that have adopted AI-driven operations have a measurable advantage in uptime (99.9% vs industry average 99.1%), security posture (60% fewer successful breaches), and cost structure (28–40% lower IT operating costs) over those that haven't.</p>
 
 <p>The barrier to entry has never been lower. Claude 3.5 Sonnet, GPT-4o, and Gemini 2.0 are available via API at fractions of a cent per query. The question isn't whether to automate — it's which processes to start with.</p>
 
@@ -154,9 +154,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "cybersecurity-mistakes-small-business",
-    title: "5 Cybersecurity Mistakes Small Businesses Make (And How to Fix Them)",
+    title: "5 Cybersecurity Mistakes Growing Businesses Make (And How to Fix Them)",
     excerpt:
-      "60% of small businesses close within 6 months of a cyberattack. Here are the most common security vulnerabilities and exactly how to address them.",
+      "60% of Growing Businesses close within 6 months of a cyberattack. Here are the most common security vulnerabilities and exactly how to address them.",
     category: "Cybersecurity",
     readTime: "6 min read",
     date: "May 12, 2026",
@@ -164,9 +164,9 @@ export const blogPosts: BlogPost[] = [
     author: "Sarah Chen",
     authorInitials: "SC",
     content: `
-<p>A cyberattack hits a small business every 39 seconds. Yet most small business owners still operate under two dangerous assumptions: <em>"We're too small to be a target"</em> and <em>"Our current setup is good enough."</em></p>
+<p>A cyberattack hits a Growing Business every 39 seconds. Yet most Growing Business owners still operate under two dangerous assumptions: <em>"We're too small to be a target"</em> and <em>"Our current setup is good enough."</em></p>
 
-<p>Neither is true. In 2025, the Verizon Data Breach Investigations Report found that 46% of all data breaches involved businesses with fewer than 1,000 employees. Cybercriminals specifically target small businesses because they have valuable data and weak defences. And the consequences are severe — the average data breach now costs a small business <strong>$255,000</strong> (IBM Cost of a Data Breach Report 2025), and 60% of those businesses close within six months.</p>
+<p>Neither is true. In 2025, the Verizon Data Breach Investigations Report found that 46% of all data breaches involved businesses with fewer than 1,000 employees. Cybercriminals specifically target Growing Businesses because they have valuable data and weak defences. And the consequences are severe — the average data breach now costs a Growing Business <strong>$255,000</strong> (IBM Cost of a Data Breach Report 2025), and 60% of those businesses close within six months.</p>
 
 <p>The threat landscape has also shifted dramatically with AI. Attackers are using Claude-class LLMs, GPT-4o, and open-source models to craft hyper-personalised phishing campaigns, generate convincing deepfakes, and automate vulnerability scanning at unprecedented scale. Here are the five mistakes we see most frequently — and exactly what to do about each one in 2026.</p>
 
@@ -182,7 +182,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>91% of cyberattacks still start with a phishing email — but today's phishing bears no resemblance to the obvious Nigerian prince scams of a decade ago. In 2025, attackers used LLMs to generate personalised spear-phishing emails that reference your employee's actual job title, recent LinkedIn activity, and your company's current projects — pulled from public sources automatically. These emails have near-zero typos, perfect grammar, and convincing context.</p>
 
-<p>Deepfake voice and video attacks emerged as a serious SMB threat in 2025. Attackers clone an executive's voice using 30 seconds of audio from a public video and call your finance team requesting urgent wire transfers. Several small businesses lost $50,000–$200,000 to this attack vector in 2025 alone. Standard security awareness training doesn't cover these threats.</p>
+<p>Deepfake voice and video attacks emerged as a serious SMB threat in 2025. Attackers clone an executive's voice using 30 seconds of audio from a public video and call your finance team requesting urgent wire transfers. Several Growing Businesses lost $50,000–$200,000 to this attack vector in 2025 alone. Standard security awareness training doesn't cover these threats.</p>
 
 <p><strong>The fix:</strong> Run quarterly phishing simulations that include AI-generated phishing content, not just templated samples from 2020. Tools like KnowBe4 (which introduced AI-generated phishing modules in 2024) and Proofpoint Security Awareness Training help your team recognise the new generation of attacks. Companies that do this reduce click rates from 30% to under 5% within 12 months.</p>
 
@@ -190,7 +190,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Mistake #3: No Tested Backup and Recovery Plan</h2>
 
-<p>Ransomware attacks increased 67% in 2025, with average ransom demands for small businesses reaching $350,000 (Coveware Q4 2025 Ransomware Report). The business model is simple: attackers encrypt all your data and demand payment for the decryption key. Modern ransomware groups also exfiltrate data before encrypting — meaning paying the ransom doesn't prevent a data leak, it just gets your systems back online.</p>
+<p>Ransomware attacks increased 67% in 2025, with average ransom demands for Growing Businesses reaching $350,000 (Coveware Q4 2025 Ransomware Report). The business model is simple: attackers encrypt all your data and demand payment for the decryption key. Modern ransomware groups also exfiltrate data before encrypting — meaning paying the ransom doesn't prevent a data leak, it just gets your systems back online.</p>
 
 <p>Most businesses think they have backups. Many don't realise those backups haven't been successfully tested in months, are stored on the same network as the systems they're backing up (ransomware specifically targets and encrypts connected backup destinations), or take 3–5 days to restore. In a ransomware scenario, 3–5 days of complete business shutdown often costs more than the ransom.</p>
 
@@ -209,15 +209,15 @@ export const blogPosts: BlogPost[] = [
 
 <p>The exploitability window — the time between a CVE being published and active exploitation in the wild — shrank to an average of 12 days in 2025, down from 44 days in 2022. AI-assisted vulnerability scanning allows attackers to identify and target unpatched systems faster than any manual patching programme can keep up with. Unpatched software remains responsible for 60% of data breaches.</p>
 
-<p>Yet most small businesses still handle updates reactively — clicking "remind me later," or waiting until something breaks. The Log4Shell vulnerability (2021) was still being actively exploited in 2025, four years after a patch was released, because thousands of small businesses never applied it. Don't let your business be on that list.</p>
+<p>Yet most Growing Businesses still handle updates reactively — clicking "remind me later," or waiting until something breaks. The Log4Shell vulnerability (2021) was still being actively exploited in 2025, four years after a patch was released, because thousands of Growing Businesses never applied it. Don't let your business be on that list.</p>
 
 <p><strong>The fix:</strong> Deploy automated patch management with AI-assisted risk prioritisation. Modern tools like Automox, NinjaRMM, or Ivanti Neurons analyse CVE severity alongside your specific software stack to prioritise which patches are critical for your environment — not just the generic CVSS score. Set patches to apply automatically during off-hours for lower-risk updates, with a human review step for high-risk patches. Include all endpoints: workstations, servers, network devices, and third-party applications. Our <a href="/services/zero-trust-security">Zero-Trust Security</a> framework includes AI-driven patch prioritisation and automated deployment.</p>
 
 <h2>Mistake #5: Flat Network Architecture With No Segmentation</h2>
 
-<p>Most small business networks are flat — every device can talk to every other device. Your point-of-sale system is on the same network as the office printer, the guest WiFi, the executive laptops, and the accounting software. When any one device is compromised, an attacker has direct access to everything else.</p>
+<p>Most Growing Business networks are flat — every device can talk to every other device. Your point-of-sale system is on the same network as the office printer, the guest WiFi, the executive laptops, and the accounting software. When any one device is compromised, an attacker has direct access to everything else.</p>
 
-<p>In 2025, IoT devices became the most common initial access vector for small business network breaches. Smart thermostats, networked printers, IP cameras, and even smart TVs in conference rooms typically run outdated firmware, use default credentials, and are never monitored — but they're on the same broadcast domain as your sensitive systems. Attackers have automated tools to scan for and exploit these devices in minutes.</p>
+<p>In 2025, IoT devices became the most common initial access vector for Growing Business network breaches. Smart thermostats, networked printers, IP cameras, and even smart TVs in conference rooms typically run outdated firmware, use default credentials, and are never monitored — but they're on the same broadcast domain as your sensitive systems. Attackers have automated tools to scan for and exploit these devices in minutes.</p>
 
 <p>Supply chain attacks also surged in 2025 — attackers compromise a supplier or software vendor and use legitimate access to pivot into your network. Flat network architecture means a compromised supplier VPN connection reaches everything.</p>
 
@@ -234,9 +234,9 @@ export const blogPosts: BlogPost[] = [
 
 <h2>The New Threat: AI-Powered Supply Chain Attacks</h2>
 
-<p>2025 introduced a threat vector that most small businesses have no defences against: AI-powered supply chain attacks. Attackers compromise an open-source package, a software vendor's update server, or a managed service provider — then use that trusted position to deliver malicious code to hundreds of downstream businesses simultaneously.</p>
+<p>2025 introduced a threat vector that most Growing Businesses have no defences against: AI-powered supply chain attacks. Attackers compromise an open-source package, a software vendor's update server, or a managed service provider — then use that trusted position to deliver malicious code to hundreds of downstream businesses simultaneously.</p>
 
-<p>The XZ Utils backdoor (2024) and multiple npm package poisoning incidents in 2025 demonstrated how trusted software components can be weaponised. For small businesses, the defence is vendor risk management: know which third-party software and services have access to your systems, verify integrity of software updates (code signing, checksums), and limit what third-party tools can access on your network.</p>
+<p>The XZ Utils backdoor (2024) and multiple npm package poisoning incidents in 2025 demonstrated how trusted software components can be weaponised. For Growing Businesses, the defence is vendor risk management: know which third-party software and services have access to your systems, verify integrity of software updates (code signing, checksums), and limit what third-party tools can access on your network.</p>
 
 <h2>How to Audit Your Current Security Posture</h2>
 
@@ -271,7 +271,7 @@ export const blogPosts: BlogPost[] = [
     author: "Marcus Kim",
     authorInitials: "MK",
     content: `
-<p>Cloud migration is one of the highest-ROI technology decisions a small business can make — but it's also one of the most commonly bungled. Companies that rush in without a plan end up with higher cloud bills than their old on-premise costs, performance problems, security gaps, and months of painful cleanup.</p>
+<p>Cloud migration is one of the highest-ROI technology decisions a Growing Business can make — but it's also one of the most commonly bungled. Companies that rush in without a plan end up with higher cloud bills than their old on-premise costs, performance problems, security gaps, and months of painful cleanup.</p>
 
 <p>In 2025, cloud adoption among SMBs crossed 94% for at least one workload (Flexera 2025 State of the Cloud). But having something in the cloud and having a cloud strategy are very different things. This checklist is built from 200+ cloud migrations we've managed. Follow it and you'll avoid 90% of the common mistakes — including ones that became more prevalent in 2025 as AI services and new pricing models complicated migration planning.</p>
 
@@ -420,7 +420,7 @@ export const blogPosts: BlogPost[] = [
     slug: "zero-trust-security-smb",
     title: "Zero-Trust Security: Is Your Business Ready?",
     excerpt:
-      "Zero-trust is no longer just for enterprises. Learn how small businesses can implement zero-trust principles without breaking the budget.",
+      "Zero-trust is no longer just for enterprises. Learn how Growing Businesses can implement zero-trust principles without breaking the budget.",
     category: "Cybersecurity",
     readTime: "7 min read",
     date: "May 5, 2026",
@@ -432,7 +432,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>That model is dead. And it died the moment businesses started using cloud services, remote workers, mobile devices, and SaaS applications. <strong>There is no perimeter anymore.</strong> Your data is in AWS, your employees are at home, your applications are in Salesforce and Microsoft 365, and your attackers are already inside your network — they've just been sitting quietly for 97 days (2025 average) waiting for the right moment to strike.</p>
 
-<p>Zero-trust is the answer. In 2024, CISA released its Zero Trust Maturity Model 2.0 — a practical framework that scales from enterprise to small business. Contrary to popular belief, zero-trust isn't just for Google and the Pentagon. Small businesses with 10–100 employees are deploying it today using affordable, cloud-native tools.</p>
+<p>Zero-trust is the answer. In 2024, CISA released its Zero Trust Maturity Model 2.0 — a practical framework that scales from enterprise to Growing Business. Contrary to popular belief, zero-trust isn't just for Google and the Pentagon. Growing Businesses with 10–100 employees are deploying it today using affordable, cloud-native tools.</p>
 
 <h2>What Zero-Trust Actually Means in 2026</h2>
 
@@ -452,7 +452,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>CISA Zero Trust Maturity Model 2.0: Your Roadmap</h2>
 
-<p>CISA's updated Zero Trust Maturity Model (2024) defines five pillars and four maturity levels (Traditional, Initial, Advanced, Optimal). Small businesses should target the "Advanced" level across all five pillars — it provides 90% of the security benefit at 30% of the cost of "Optimal." Here's what each pillar means in practice for SMBs:</p>
+<p>CISA's updated Zero Trust Maturity Model (2024) defines five pillars and four maturity levels (Traditional, Initial, Advanced, Optimal). Growing Businesses should target the "Advanced" level across all five pillars — it provides 90% of the security benefit at 30% of the cost of "Optimal." Here's what each pillar means in practice for SMBs:</p>
 
 <h3>Pillar 1: Identity</h3>
 
@@ -464,7 +464,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Privileged access management (PAM)</strong> with just-in-time access elevation, session recording, and automatic expiry for admin accounts</li>
 </ul>
 
-<p>For small businesses, Microsoft Entra ID P2 (formerly Azure AD Premium P2) or Okta Workforce Identity handle all of this for $12–16/user/month. This is the single highest-ROI security investment available to small businesses today — Identity is where 80%+ of breaches start.</p>
+<p>For Growing Businesses, Microsoft Entra ID P2 (formerly Azure AD Premium P2) or Okta Workforce Identity handle all of this for $12–16/user/month. This is the single highest-ROI security investment available to Growing Businesses today — Identity is where 80%+ of breaches start.</p>
 
 <h3>Pillar 2: Devices</h3>
 
@@ -525,7 +525,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Ongoing:</strong> Run our <a href="/services/managed-soc">Managed SOC service</a> for 24/7 monitoring, quarterly access certifications, and annual zero-trust maturity assessments.</li>
 </ol>
 
-<h2>How Much Does Zero-Trust Cost for a Small Business?</h2>
+<h2>How Much Does Zero-Trust Cost for a Growing Business?</h2>
 
 <p>For a 20-person company targeting CISA ZTM 2.0 "Advanced" maturity across all pillars:</p>
 <ul>
@@ -577,7 +577,7 @@ export const blogPosts: BlogPost[] = [
     author: "Alex Rivera",
     authorInitials: "AB",
     content: `
-<p>Every growing small business eventually faces the same question: <em>Do we hire an IT person, or do we outsource?</em> Most business owners make this decision based on gut feel, one-sided vendor pitches, or advice from people who've never actually done the comparison properly.</p>
+<p>Every growing Growing Business eventually faces the same question: <em>Do we hire an IT person, or do we outsource?</em> Most business owners make this decision based on gut feel, one-sided vendor pitches, or advice from people who've never actually done the comparison properly.</p>
 
 <p>In 2025, this decision has become even more consequential. The IT skill landscape has fragmented — a competent IT hire needs to understand AI tools, cloud platforms (AWS, Azure, GCP), zero-trust security, compliance frameworks, and end-user support simultaneously. The average annual compensation for an IT administrator capable across these domains has risen 18% since 2023. Meanwhile, managed IT providers have deployed AI tools that let them deliver more coverage at lower cost-per-customer.</p>
 
@@ -613,11 +613,11 @@ export const blogPosts: BlogPost[] = [
 
 <h3>Hidden Costs of In-House IT in 2026</h3>
 
-<p><strong>Coverage gaps are expensive in a 24/7 threat environment:</strong> One person works 40 hours per week, takes 15–20 days of PTO, gets sick, and eventually leaves. Your IT function is effectively offline for 15–20% of the year. In 2025, 67% of ransomware attacks were launched during weekends and after-hours — specifically because attackers know small businesses have no IT coverage then (Sophos State of Ransomware 2025). Who handles the 2am attack? You're either paying overtime, calling your IT person on holiday, or hoping nothing critical breaks outside business hours.</p>
+<p><strong>Coverage gaps are expensive in a 24/7 threat environment:</strong> One person works 40 hours per week, takes 15–20 days of PTO, gets sick, and eventually leaves. Your IT function is effectively offline for 15–20% of the year. In 2025, 67% of ransomware attacks were launched during weekends and after-hours — specifically because attackers know Growing Businesses have no IT coverage then (Sophos State of Ransomware 2025). Who handles the 2am attack? You're either paying overtime, calling your IT person on holiday, or hoping nothing critical breaks outside business hours.</p>
 
 <p><strong>The 2026 skill gap is wider than ever:</strong> IT now demands proficiency across cybersecurity (zero-trust, SIEM, EDR), cloud platforms (AWS/Azure/GCP), AI tooling (Copilot, Claude, Gemini integrations), compliance frameworks (NIST, CIS, CMMC), networking, and end-user support. No single hire covers all of these at a senior level. You hire for what hurt you last time, and you're always 12–18 months behind the current threat landscape.</p>
 
-<p><strong>Turnover cost is rising:</strong> IT sector turnover runs 17–22% per year in 2025 (CompTIA Workforce and Learning Trends 2025). When your IT person leaves, you lose institutional knowledge, face 8–16 weeks of degraded service during hiring, and pay $6,000–$15,000 in recruitment costs again. Average tenure for a small business IT hire is 2.1 years — you're hiring every other year.</p>
+<p><strong>Turnover cost is rising:</strong> IT sector turnover runs 17–22% per year in 2025 (CompTIA Workforce and Learning Trends 2025). When your IT person leaves, you lose institutional knowledge, face 8–16 weeks of degraded service during hiring, and pay $6,000–$15,000 in recruitment costs again. Average tenure for a Growing Business IT hire is 2.1 years — you're hiring every other year.</p>
 
 <p><strong>AI upskilling is a continuous cost:</strong> The tool landscape is evolving faster than any single person can keep up with. Keeping one IT hire current on 2026 AI security tools, cloud AI services (Bedrock, Vertex AI, Azure OpenAI), and emerging threat vectors requires dedicated learning time and ongoing training investment — typically 15–20% of work hours in fast-moving areas.</p>
 
@@ -693,7 +693,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "multi-cloud-management-strategies-smb",
-    title: "Multi-Cloud Management Strategies for Small Businesses",
+    title: "Multi-Cloud Management Strategies for Growing Businesses",
     excerpt:
       "Running workloads across AWS, Azure, and GCP? Here's how to manage multi-cloud environments without losing visibility or control of your costs.",
     category: "Cloud Solutions",
@@ -703,7 +703,7 @@ export const blogPosts: BlogPost[] = [
     author: "Marcus Kim",
     authorInitials: "MK",
     content: `
-<p>Most small businesses don't choose multi-cloud — they drift into it. The engineering team uses AWS for the main application. Finance adopted Microsoft 365 and Azure for SharePoint. Someone signed up for Google Workspace, and suddenly you're also running workloads on GCP. The marketing team is using Cloudflare, HubSpot, and Salesforce. Your "cloud strategy" is really a collection of individual decisions made in isolation.</p>
+<p>Most Growing Businesses don't choose multi-cloud — they drift into it. The engineering team uses AWS for the main application. Finance adopted Microsoft 365 and Azure for SharePoint. Someone signed up for Google Workspace, and suddenly you're also running workloads on GCP. The marketing team is using Cloudflare, HubSpot, and Salesforce. Your "cloud strategy" is really a collection of individual decisions made in isolation.</p>
 
 <p>This isn't necessarily bad. Using multiple clouds lets you pick best-in-class services for each use case — and in 2025–2026, the differentiation between providers has grown sharper, not blurred. But without intentional management, scattered cloud usage creates three serious problems: <strong>ballooning costs, security blind spots, and operational complexity</strong> that slows your team down.</p>
 
@@ -769,7 +769,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Cribl Stream:</strong> AI-powered log routing and data reduction across all cloud environments — typically cuts SIEM ingestion costs 40–60% by filtering noise before it reaches storage.</li>
 </ul>
 
-<p>Our <a href="/services/multi-cloud">Multi-Cloud Management service</a> includes a pre-built unified management stack tuned for small business environments, with all of these tools pre-configured and integrated.</p>
+<p>Our <a href="/services/multi-cloud">Multi-Cloud Management service</a> includes a pre-built unified management stack tuned for Growing Business environments, with all of these tools pre-configured and integrated.</p>
 
 <h3>3. Standardise Your Identity Model</h3>
 
@@ -853,7 +853,7 @@ export const blogPosts: BlogPost[] = [
     author: "Alex Rivera",
     authorInitials: "AR",
     content: `
-<p>Managed IT services pricing is one of the most searched — and most confusing — topics for small business owners. Vendors rarely publish prices. Sales calls feel like negotiations. And it's almost impossible to know whether a quote is fair without a benchmark.</p>
+<p>Managed IT services pricing is one of the most searched — and most confusing — topics for Growing Business owners. Vendors rarely publish prices. Sales calls feel like negotiations. And it's almost impossible to know whether a quote is fair without a benchmark.</p>
 
 <p>This guide breaks down exactly what managed IT services cost in 2026, across every pricing model, company size, and service tier. No fluff, no hidden caveats — just the numbers you need to make a smart decision.</p>
 
@@ -956,7 +956,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "soc2-compliance-checklist-startups",
-    title: "SOC2 Compliance Checklist for Startups & Small Businesses (2026)",
+    title: "SOC2 Compliance Checklist for Startups & Growing Businesses (2026)",
     excerpt:
       "A practical SOC2 compliance checklist covering all five Trust Service Criteria. Learn what auditors actually look for and how to prepare without a $200K budget.",
     category: "Cybersecurity",
@@ -966,7 +966,7 @@ export const blogPosts: BlogPost[] = [
     author: "Sarah Chen",
     authorInitials: "SC",
     content: `
-<p>SOC2 has gone from a nice-to-have to a sales requirement. Enterprise buyers, SaaS procurement teams, and healthcare clients increasingly require a SOC2 Type II report before signing contracts. If you're a startup or small business trying to close larger deals, the question isn't <em>whether</em> to get SOC2 certified — it's <em>how to do it without spending six months and $200,000</em>.</p>
+<p>SOC2 has gone from a nice-to-have to a sales requirement. Enterprise buyers, SaaS procurement teams, and healthcare clients increasingly require a SOC2 Type II report before signing contracts. If you're a startup or Growing Business trying to close larger deals, the question isn't <em>whether</em> to get SOC2 certified — it's <em>how to do it without spending six months and $200,000</em>.</p>
 
 <p>This checklist covers everything auditors actually look for across all five Trust Service Criteria (TSC), with practical implementation steps for teams without a dedicated compliance department.</p>
 
@@ -1080,7 +1080,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Security training not documented</strong> — Annual security awareness training must be recorded with completion evidence.</li>
 </ul>
 
-<h2>Realistic SOC2 Timeline for a Small Business</h2>
+<h2>Realistic SOC2 Timeline for a Growing Business</h2>
 
 <table>
   <thead><tr><th>Month</th><th>Activity</th></tr></thead>
@@ -1108,7 +1108,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "hipaa-it-requirements-small-business",
-    title: "HIPAA IT Requirements for Small Businesses: Complete 2026 Guide",
+    title: "HIPAA IT Requirements for Growing Businesses: Complete 2026 Guide",
     excerpt:
       "Everything small healthcare businesses need to know about HIPAA IT compliance — technical safeguards, required policies, breach notification rules, and what the OCR actually audits.",
     category: "Cybersecurity",
@@ -1243,9 +1243,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "aws-vs-azure-vs-gcp-small-business",
-    title: "AWS vs Azure vs GCP for Small Business: Which Cloud Is Right for You? (2026)",
+    title: "AWS vs Azure vs GCP for Growing Business: Which Cloud Is Right for You? (2026)",
     excerpt:
-      "An honest, side-by-side comparison of Amazon Web Services, Microsoft Azure, and Google Cloud Platform for small businesses — covering cost, ease of use, support, and which workloads each handles best.",
+      "An honest, side-by-side comparison of Amazon Web Services, Microsoft Azure, and Google Cloud Platform for Growing Businesses — covering cost, ease of use, support, and which workloads each handles best.",
     category: "Cloud Solutions",
     readTime: "9 min read",
     date: "May 16, 2026",
@@ -1253,9 +1253,9 @@ export const blogPosts: BlogPost[] = [
     author: "Marcus Kim",
     authorInitials: "MK",
     content: `
-<p>Choosing between AWS, Azure, and Google Cloud Platform (GCP) is one of the most consequential infrastructure decisions a small business can make. Migrate to the wrong platform and you'll spend years dealing with vendor lock-in, unexpected cost spikes, and a skills gap that slows every project.</p>
+<p>Choosing between AWS, Azure, and Google Cloud Platform (GCP) is one of the most consequential infrastructure decisions a Growing Business can make. Migrate to the wrong platform and you'll spend years dealing with vendor lock-in, unexpected cost spikes, and a skills gap that slows every project.</p>
 
-<p>This comparison cuts through the marketing to give you an honest, practical breakdown of which cloud platform wins for small businesses in 2026 — and for which specific workloads.</p>
+<p>This comparison cuts through the marketing to give you an honest, practical breakdown of which cloud platform wins for Growing Businesses in 2026 — and for which specific workloads.</p>
 
 <h2>Quick Summary: Who Should Pick What</h2>
 
@@ -1279,7 +1279,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Pricing Comparison</h2>
 
-<p>Cloud pricing is notoriously complex, but here's a realistic comparison for a typical small business workload: 2 virtual machines, 500GB storage, 1TB data transfer/month.</p>
+<p>Cloud pricing is notoriously complex, but here's a realistic comparison for a typical Growing Business workload: 2 virtual machines, 500GB storage, 1TB data transfer/month.</p>
 
 <table>
   <thead><tr><th>Provider</th><th>Est. Monthly Cost</th><th>Free Tier</th></tr></thead>
@@ -1292,7 +1292,7 @@ export const blogPosts: BlogPost[] = [
 
 <p><strong>Bottom line on pricing:</strong> All three are within 10–15% of each other for comparable workloads. GCP tends to be cheapest for compute-heavy workloads; AWS is often most expensive but offers the most flexibility; Azure wins on hybrid licensing discounts for Microsoft customers.</p>
 
-<h2>Ease of Use for Small Business Teams</h2>
+<h2>Ease of Use for Growing Business Teams</h2>
 
 <h3>AWS</h3>
 <p>Steepest learning curve of the three. The AWS console is powerful but overwhelming — 200+ services, each with its own configuration model. However, the talent pool is largest: more tutorials, certifications, and developers with AWS experience than any other platform.</p>
@@ -1321,7 +1321,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>AI & Machine Learning Capabilities in 2026</h2>
 
-<p>This is increasingly relevant as small businesses adopt AI tools:</p>
+<p>This is increasingly relevant as Growing Businesses adopt AI tools:</p>
 
 <table>
   <thead><tr><th>Provider</th><th>AI/ML Platform</th><th>Foundation Models</th></tr></thead>
@@ -1345,7 +1345,7 @@ export const blogPosts: BlogPost[] = [
   </tbody>
 </table>
 
-<p>For small businesses, <strong>Azure's business support tends to offer the best value</strong> — faster response times and more proactive guidance than AWS at similar price points.</p>
+<p>For Growing Businesses, <strong>Azure's business support tends to offer the best value</strong> — faster response times and more proactive guidance than AWS at similar price points.</p>
 
 <h2>Security & Compliance</h2>
 
@@ -1356,9 +1356,9 @@ export const blogPosts: BlogPost[] = [
   <li><strong>GCP:</strong> Strong on data sovereignty — Google can contractually commit to data not leaving specific regions.</li>
 </ul>
 
-<h2>Our Recommendation for Most Small Businesses</h2>
+<h2>Our Recommendation for Most Growing Businesses</h2>
 
-<p>For the typical small business (10–50 employees, Microsoft-centric tools, no specialised AI or data science workload):</p>
+<p>For the typical Growing Business (10–50 employees, Microsoft-centric tools, no specialised AI or data science workload):</p>
 
 <ol>
   <li><strong>Primary choice: Azure</strong> — especially if you use Microsoft 365, Windows devices, or work in a regulated industry</li>
@@ -1373,7 +1373,7 @@ export const blogPosts: BlogPost[] = [
     slug: "cybersecurity-remote-teams-2026",
     title: "Cybersecurity for Remote Teams: The Complete 2026 Guide",
     excerpt:
-      "Remote work has permanently expanded the attack surface for small businesses. Here's exactly how to secure a distributed team without a full-time security team on staff.",
+      "Remote work has permanently expanded the attack surface for Growing Businesses. Here's exactly how to secure a distributed team without a full-time security team on staff.",
     category: "Cybersecurity",
     readTime: "8 min read",
     date: "May 15, 2026",
@@ -1381,7 +1381,7 @@ export const blogPosts: BlogPost[] = [
     author: "Sarah Chen",
     authorInitials: "SC",
     content: `
-<p>Remote and hybrid work is now the default for small businesses worldwide. According to Buffer's 2025 State of Remote Work report, 68% of small businesses operate with at least some permanently remote staff. That's good for talent acquisition and overhead costs — and genuinely bad for your cybersecurity posture if you haven't adapted your defences.</p>
+<p>Remote and hybrid work is now the default for Growing Businesses worldwide. According to Buffer's 2025 State of Remote Work report, 68% of Growing Businesses operate with at least some permanently remote staff. That's good for talent acquisition and overhead costs — and genuinely bad for your cybersecurity posture if you haven't adapted your defences.</p>
 
 <p>Home networks, personal devices, public Wi-Fi, shadow IT apps, and the blurring of personal and professional digital lives create an attack surface that's fundamentally different from a traditional office environment. This guide covers exactly what to implement to secure a distributed team in 2026.</p>
 
@@ -1483,9 +1483,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "what-is-managed-soc",
-    title: "What Is a Managed SOC? Everything Small Businesses Need to Know (2026)",
+    title: "What Is a Managed SOC? Everything Growing Businesses Need to Know (2026)",
     excerpt:
-      "A managed Security Operations Centre (SOC) gives small businesses enterprise-grade 24/7 threat monitoring without hiring a full security team. Here's how it works, what it costs, and whether you need one.",
+      "A managed Security Operations Centre (SOC) gives Growing Businesses enterprise-grade 24/7 threat monitoring without hiring a full security team. Here's how it works, what it costs, and whether you need one.",
     category: "Cybersecurity",
     readTime: "7 min read",
     date: "May 14, 2026",
@@ -1493,9 +1493,9 @@ export const blogPosts: BlogPost[] = [
     author: "Alex Rivera",
     authorInitials: "AR",
     content: `
-<p>A Security Operations Centre (SOC) was once exclusively for enterprises with $10M+ security budgets and teams of 20+ analysts. In 2026, managed SOC services have democratised this capability — small businesses with 10 employees can now access the same 24/7 threat detection and response that Fortune 500 companies rely on, at a fraction of the cost.</p>
+<p>A Security Operations Centre (SOC) was once exclusively for enterprises with $10M+ security budgets and teams of 20+ analysts. In 2026, managed SOC services have democratised this capability — Growing Businesses with 10 employees can now access the same 24/7 threat detection and response that Fortune 500 companies rely on, at a fraction of the cost.</p>
 
-<p>But there's significant confusion in the market about what a managed SOC actually does, what it costs, and whether a small business genuinely needs one. This guide answers all of it.</p>
+<p>But there's significant confusion in the market about what a managed SOC actually does, what it costs, and whether a Growing Business genuinely needs one. This guide answers all of it.</p>
 
 <h2>What Is a SOC?</h2>
 
@@ -1550,9 +1550,9 @@ export const blogPosts: BlogPost[] = [
 
 <p>For a 25-person company, a managed SOC costs <strong>$2,000–$8,000/month</strong> — providing capabilities that would cost $32,000–$58,000/month to replicate in-house.</p>
 
-<h2>Do Small Businesses Actually Need a Managed SOC?</h2>
+<h2>Do Growing Businesses Actually Need a Managed SOC?</h2>
 
-<p>Not every small business does. Here's how to assess your need:</p>
+<p>Not every Growing Business does. Here's how to assess your need:</p>
 
 <strong>You likely need a managed SOC if:</strong>
 <ul>

@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import {
   ArrowRight, CheckCircle,
   ShieldCheck, Lock, AlertTriangle, Bot, Sparkles,
@@ -78,7 +78,7 @@ export default function ServicePageTemplate({ service }: ServicePageTemplateProp
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
               {service.name} for{" "}
-              <span className="text-brand-light">Small Business</span>
+              <span className="text-brand-light">Growing Business</span>
             </h1>
             <p className="text-xl text-slate-300 leading-relaxed mb-8">
               {service.heroSubtitle}

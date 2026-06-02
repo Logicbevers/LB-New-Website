@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Hero from "@/components/home/Hero";
 import ProblemSolution from "@/components/home/ProblemSolution";
 import ServicesGrid from "@/components/home/ServicesGrid";
@@ -12,7 +12,7 @@ import FinalCTA from "@/components/home/FinalCTA";
 export const metadata: Metadata = {
   title: "LogicBevers | Expert IT Services, Cloud & Security Solutions",
   description:
-    "Expert managed IT services, cybersecurity & cloud solutions for small businesses. 24/7 support, AI automation, zero-trust security. Save avg. $45K/year.",
+    "Expert managed IT services, cybersecurity & cloud solutions for Growing Businesses. 24/7 support, AI automation, zero-trust security. Save avg. $45K/year.",
   alternates: { canonical: "https://logicbevers.com" },
 };
 
