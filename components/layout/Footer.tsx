@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Mail, Phone } from "lucide-react";
 import ObfuscatedEmail from "@/components/shared/ObfuscatedEmail";
 
@@ -44,7 +44,7 @@ const resourceLinks = [
   { name: "IT Security Checklist", href: "/blog" },
   { name: "Cloud Migration Guide", href: "/blog" },
   { name: "AI Automation Guide", href: "/blog" },
-  { name: "Free IT Audit", href: "/contact" },
+  { name: "Get In Touch", href: "/contact" },
 ];
 
 export default function Footer() {

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import {
   ArrowRight, CheckCircle, Shield, Lightbulb,
@@ -532,7 +532,7 @@ export default function AboutPage() {
               href="/contact"
               className="flex-shrink-0 inline-flex items-center gap-2 bg-white text-brand-green font-black px-8 py-4 hover:bg-green-50 transition-colors text-base"
             >
-              Schedule Free Audit <ArrowRight className="w-5 h-5" />
+              Get In Touch <ArrowRight className="w-5 h-5" />
             </Link>
           </div>
         </div>

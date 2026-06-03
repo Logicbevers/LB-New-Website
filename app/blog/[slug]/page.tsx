@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import { ArrowLeft, ArrowRight, Clock, User, Calendar } from "lucide-react";
 import { blogPosts, getPostBySlug, getCategoryColor } from "@/lib/blogPosts";
 import { notFound } from "next/navigation";
@@ -103,16 +102,6 @@ export default async function BlogPostPage({ params }: Props) {
       />
       {/* Hero */}
       <section className="bg-brand-dark py-16">
-        {/* Cover image */}
-        <div className="w-full h-64 md:h-80 overflow-hidden mb-0 relative">
-          <Image
-            src={`/api/og?name=${encodeURIComponent(post.title)}&desc=${encodeURIComponent(post.excerpt)}&category=${encodeURIComponent(post.category)}`}
-            alt={post.title}
-            fill
-            className="object-cover"
-            priority
-          />
-        </div>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link
             href="/blog"
@@ -182,13 +171,13 @@ export default async function BlogPostPage({ params }: Props) {
                   Ready to take action?
                 </h3>
                 <p className="text-green-100 text-sm mb-4">
-                  Get a free IT audit and custom action plan for your business.
+                  Talk to our experts and get a custom IT plan for your business.
                 </p>
                 <Link
                   href="/contact"
                   className="inline-flex items-center gap-2 bg-white text-brand-green font-semibold text-sm px-5 py-3 rounded-xl hover:bg-green-50 transition-colors w-full justify-center"
                 >
-                  Schedule Free Audit <ArrowRight className="w-4 h-4" />
+                  Get In Touch <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>
 

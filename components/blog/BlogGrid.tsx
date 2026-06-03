@@ -2,9 +2,16 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { ArrowRight, Clock, User } from "lucide-react";
 import { blogPosts, getCategoryColor } from "@/lib/blogPosts";
+
+const categoryGradient: Record<string, string> = {
+  "Managed IT":      "from-slate-800 to-slate-900",
+  "Cybersecurity":   "from-red-950 to-slate-900",
+  "Cloud Solutions": "from-blue-950 to-slate-900",
+  "AI & Automation": "from-purple-950 to-slate-900",
+  "Blockchain":      "from-indigo-950 to-slate-900",
+};
 
 const categories = ["All", "Managed IT", "Cybersecurity", "Cloud Solutions", "AI & Automation"];
 
@@ -42,16 +49,12 @@ export default function BlogGrid() {
             key={post.slug}
             className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col"
           >
-            {/* Cover image */}
-            <div className="h-48 overflow-hidden bg-brand-dark relative">
-              <Image
-                src={`/api/og?name=${encodeURIComponent(post.title)}&desc=${encodeURIComponent(post.excerpt)}&category=${encodeURIComponent(post.category)}`}
-                alt={post.title}
-                fill
-                className="object-cover"
-                loading="lazy"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              />
+            {/* Cover gradient */}
+            <div className={`h-48 bg-gradient-to-br ${categoryGradient[post.category] ?? "from-slate-800 to-slate-900"} flex flex-col justify-end p-5 relative overflow-hidden`}>
+              <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px)", backgroundSize: "30px 30px" }} />
+              <div className="absolute top-4 right-4 w-16 h-16 rounded-full bg-brand-green/10 blur-xl" />
+              <span className="relative text-xs font-bold tracking-widest text-brand-light uppercase mb-2">{post.category}</span>
+              <p className="relative text-white font-bold text-sm leading-snug line-clamp-2">{post.title}</p>
             </div>
 
             <div className="p-6 flex flex-col flex-1">

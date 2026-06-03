@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { CheckCircle } from "lucide-react";
@@ -129,7 +129,7 @@ export default function ContactForm() {
         disabled={loading}
         className="w-full bg-brand-green hover:bg-brand-light text-white font-semibold py-4 rounded-xl transition-colors shadow-sm disabled:opacity-60 disabled:cursor-not-allowed text-base"
       >
-        {loading ? "Sending..." : "Schedule My Free Audit →"}
+        {loading ? "Sending..." : "Get In Touch →"}
       </button>
 
       <p className="text-center text-slate-400 text-xs">

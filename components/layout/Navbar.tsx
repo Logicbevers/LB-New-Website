@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
@@ -84,7 +84,7 @@ export default function Navbar() {
               href="/contact"
               className="bg-black hover:bg-brand-green text-white text-sm font-bold px-5 py-2.5 transition-colors"
             >
-              Free Audit →
+              Get In Touch →
             </Link>
           </div>
 
@@ -133,7 +133,7 @@ export default function Navbar() {
             onClick={() => setMobileOpen(false)}
             className="block mt-3 bg-black text-white text-center text-sm font-bold px-4 py-3 hover:bg-brand-green transition-colors"
           >
-            Free IT Audit →
+            Get In Touch →
           </Link>
         </div>
       )}

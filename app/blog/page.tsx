@@ -62,14 +62,14 @@ export default function BlogPage() {
             Ready to put these insights into action?
           </h2>
           <p className="text-slate-600 mb-6">
-            Schedule a free IT audit and we&apos;ll show you exactly what to
+            Schedule a Get In Touch and we&apos;ll show you exactly what to
             prioritize for your business.
           </p>
           <Link
             href="/contact"
             className="inline-flex items-center gap-2 bg-brand-green hover:bg-brand-light text-white font-semibold px-6 py-3 rounded-xl transition-colors"
           >
-            Schedule Free Audit <ArrowRight className="w-4 h-4" />
+            Get In Touch <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
       </section>

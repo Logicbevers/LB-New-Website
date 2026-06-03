@@ -88,7 +88,7 @@ export default function ServicePageTemplate({ service }: ServicePageTemplateProp
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 bg-brand-green hover:bg-brand-light text-white font-semibold px-8 py-4 rounded-xl transition-all shadow-lg text-base"
               >
-                Schedule Free Audit <ArrowRight className="w-5 h-5" />
+                Get In Touch <ArrowRight className="w-5 h-5" />
               </Link>
               <Link
                 href="/contact"
@@ -260,7 +260,7 @@ export default function ServicePageTemplate({ service }: ServicePageTemplateProp
             href="/contact"
             className="inline-flex items-center justify-center gap-2 bg-white text-brand-green font-bold px-8 py-4 rounded-xl hover:bg-green-50 transition-colors shadow-lg text-lg"
           >
-            Schedule Your Free Audit <ArrowRight className="w-5 h-5" />
+            Get In Touch <ArrowRight className="w-5 h-5" />
           </Link>
         </div>
       </section>
