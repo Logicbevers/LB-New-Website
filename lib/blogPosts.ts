@@ -497,7 +497,7 @@ export const blogPosts: BlogPost[] = [
   <li>Current employees with admin access "just in case" — should be eliminated; use PAM for temporary elevation</li>
   <li>Service accounts with domain admin or global administrator privileges — these should have specific, scoped permissions only</li>
   <li>Database accounts with full read/write access to every schema and table — should be per-application, per-schema permissions</li>
-  <li>Third-party integrations with excessive API scopes granted during initial setup and never reviewed</li>
+  <li>Third-party integrations with excessive API scopes granted during initial setup and never reviewed — our <a href="/services/api-security">API Security & Gateway service</a> audits and locks down every integration point</li>
 </ul>
 
 <p>Implement a quarterly access certification process: managers certify that each report still needs each access entitlement. Microsoft Entra ID Governance and Okta Access Governance automate this process with email-based certification workflows.</p>
@@ -921,10 +921,11 @@ export const blogPosts: BlogPost[] = [
 
 <h3>Factors that increase your price:</h3>
 <ul>
-  <li>Complex infrastructure (multiple sites, legacy systems)</li>
+  <li>Complex infrastructure (multiple sites, legacy systems) — often a sign that <a href="/services/digital-transformation">Digital Transformation</a> work is needed alongside managed IT</li>
   <li>Compliance requirements (HIPAA, SOC2, PCI-DSS)</li>
   <li>After-hours or 24/7 support requirements</li>
   <li>High-security industries (finance, healthcare, legal)</li>
+  <li>Blockchain or Web3 infrastructure — our <a href="/services/web3-blockchain">Web3 & Blockchain service</a> handles smart contracts, wallets, and on-chain integrations alongside your managed IT</li>
   <li>On-site visit requirements</li>
 </ul>
 

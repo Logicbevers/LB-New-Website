@@ -141,12 +141,24 @@ export default function ServicesGrid() {
         {/* View all services */}
         <div className="mt-6 border border-black/8 bg-brand-gray p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
-            <p className="font-black text-black">
-              See all 11 services →
-            </p>
-            <p className="text-slate-500 text-sm mt-0.5">
-              Incident Response · Web3 & Blockchain · API Security · Multi-Cloud · Digital Transformation
-            </p>
+            <p className="font-black text-black mb-2">More services</p>
+            <div className="flex flex-wrap gap-x-4 gap-y-1">
+              {[
+                { name: "Incident Response", href: "/services/incident-response" },
+                { name: "Web3 & Blockchain", href: "/services/web3-blockchain" },
+                { name: "API Security", href: "/services/api-security" },
+                { name: "Multi-Cloud", href: "/services/multi-cloud" },
+                { name: "Digital Transformation", href: "/services/digital-transformation" },
+              ].map((s) => (
+                <Link
+                  key={s.href}
+                  href={s.href}
+                  className="text-sm font-medium text-slate-600 hover:text-brand-green transition-colors"
+                >
+                  {s.name} →
+                </Link>
+              ))}
+            </div>
           </div>
           <Link
             href="/contact"
