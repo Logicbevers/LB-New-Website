@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Terms of Service | LogicBevers",
   description: "LogicBevers Terms of Service — the terms and conditions governing your use of our services.",
   alternates: { canonical: "https://logicbevers.com/terms" },
+  robots: { index: false, follow: false },
 };
 
 const sections = [

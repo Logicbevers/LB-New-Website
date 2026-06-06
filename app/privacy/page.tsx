@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy | LogicBevers",
   description: "LogicBevers Privacy Policy — how we collect, use, and protect your personal information.",
   alternates: { canonical: "https://logicbevers.com/privacy" },
+  robots: { index: false, follow: false },
 };
 
 const sections = [
